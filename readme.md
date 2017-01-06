@@ -48,7 +48,14 @@ Our first Javascript+HTML:
 --------------------------
 Setup
 
-Implementation
+![atom0](images/atom_0.png)
+![atom1](images/atom_1.png)
+![atom2](images/atom_2.png)
+![atom3](images/atom_3.png)
+![atom4](images/atom_4.png)
+![chrome_0](images/chrome_0.png)
+![chrome_1](images/chrome_1.png)
+![chrome_2](images/chrome_2.png)
 
 Next Steps
 
