@@ -105,17 +105,15 @@ Open Atom. Choose File-Open from the main menu and browse to your folder to open
 
 ![atom0](images/atom_0.png)
 
-Continue this process to create a "styles" folder and a "scripts" folder. Create a file called "helloWorld.js" in the "scripts" folder. This will be our JavaScript file. 
+Continue this process to create a "scripts" folder. Create a file called "helloWorld.js" in the "scripts" folder. This will is our (first) JavaScript file. 
 
-In the "styles" folder, include a CSS file. From the application process you should be able to create a CSS file. We'll not be reviewing how to create one here. 
-
-In the example you'll see I'm using a CSS file called "beach.css". Take a few moments to create a simple CSS file to start. You can always revisit and iterate this later.
 -
+
 Now, let's get into our HTML file. Open "index.html" by clicking on it's tab at the top of Atom. Type in ```html``` and you'll see that Atom anticipates that you are trying to create an HTML file 
 
 ![atom1](images/atom_1.png)
 
-Click RETURN or TAB and you'll see that Atom gives you some scaffolding for a basic HTML page.
+Click TAB and you'll see that Atom gives you some scaffolding for a basic HTML page.
 
 ![atom2](images/atom_2.png)
 
@@ -123,11 +121,36 @@ Let's give our little page a Title of "Hello World" and add a H1 in the body as 
 
 ![atom3](images/atom_3.png)
 
-You may have noticed that Atmo tries to anticipate what you are trying to add. This is because Atom knows it is an HTML file. Add a p tag by typing ```<p``` and click RETURN or TAB. Note that Atom finishes the opening tab as well as provides you with the closing p tag. 
+You may have noticed that Atom tries to anticipate what you are trying to add. This is because Atom knows it is an HTML file. Add a p tag by typing ```<p``` and click TAB. Note that Atom finishes the opening tab as well as provides you with the closing p tag. 
 
 Give this paragraph tag some text of "Check the console for javascript output"
 
+-
+
+Now let's open "helloWorld.js". simply add the following line:
+
+```javascript
+console.log( 'Hello World!' );
+```
+
+This will display in a part of the browser called the "Console". We'll see this shortly.
+
+-
+
+We'll need to "source" the js file in the HTML. This is what connects the javascript to the HTML. Similar to how you used "link" previously to add CSS to an HTML file.
+
+In the "head" section of the HTML, start typing ```src``` and Atom will anticipate you sourcing in a script file. 
+
 ![atom4](images/atom_4.png)
+
+"Source" in our js file as follows: 
+![atom4](images/atom_5.png)
+
+Save all your work and let's get ready to see how things are working!
+
+-
+
+
 ![chrome_0](images/chrome_0.png)
 ![chrome_1](images/chrome_1.png)
 ![chrome_2](images/chrome_2.png)
