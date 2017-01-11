@@ -149,16 +149,27 @@ In the "head" section of the HTML, start typing ```src``` and Atom will anticipa
 Save all your work and let's get ready to see how things are working!
 
 -
-
+Open the index.html file in Chrome. Rt-click and choose "Inspect" from the popup menu:
 
 ![chrome_0](images/chrome_0.png)
+
+This can aslo be opened by choosing View-Developer-Developer Tools:
 ![chrome_1](images/chrome_1.png)
-![chrome_2](images/chrome_2.png)
+
+In the Dev Tools panel, click on the "Console" tab to activate it. You'll see in there your "Hello World!" message.
+
+![chrome_1](images/chrome_2.png)
+
+Next Steps:
+-----------
+Create a CSS file, link it in and add some styling. You've now sourced in a javascript file and created a basic page that says hello to the world from you as a developer! Next, we'll use Git to post your work to Github. Then you'll learn how we turn in assignments on the Prime Assignment App. 
 
 
-Git (our version control):
+Git and Github:
 =======================
-Now that you've got Slack and Atom set up, we're ready to start making a web page with some Javascript! We'll add one more tool to manage our files. 
+Git
+----
+Now that you've built a page on your computer, we'll want it on github so it can be shared. We'll add one more tool to manage our files - Git. 
 
 Open Terminal. This can be found in Applications-Utilities-Terminal:
 ![](images/applicationUtilities.png)
