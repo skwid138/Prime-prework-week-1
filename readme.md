@@ -1,5 +1,19 @@
 Prework Week 1
 ==============
+Welcome to Prework at Prime Digital Academy! In week 1 of Prework we'll get you set up with the basics:
+
+* Slack (our chat program)
+* Atom (our IDE - Integrated Development Editor)
+* Git (our version control)
+* Adding Javascript to an HTML page
+* Using Github
+* Turning in your work via the Prime Academy Assignment App
+
+This will take some time and will require installing some programs on your Mac. So get started early in the week and spread the work throughout.
+
+By the end of this week, you'll be all set up for the next few months. You will have stepped through the process of setting up a simple page with javascript, posted it to the Internet, turned it in through Prime's Assignment App, and have started using internet chat to address technical ideas.
+
+Let's get started! 
 
 Slack (our chat program):
 -------------------------
@@ -29,11 +43,12 @@ You can also "star" channels that are high priority for you. If you subscribe to
 Please, feel free to jump in to channels and join the conversations!
 
 Atom (our IDE):
---------------
+=========
 
-Install Atom and install a few useful plugins to help you work more affectively.
+Let's install Atom and a few useful plugins to help you work more affectively. Within Atom is where you'll be writing your code so it is kinda a big deal.
 
-### Steps
+Steps:
+------
 - [Download Atom](#download-atom)
 - [Default Functionality / Core Packages](#default-functionality--core-packages)
 - [Community Packages](#community-packages)
@@ -78,32 +93,60 @@ Some packages require you launch them from the package menu.
 
 ![](images/atom-packages-menu.png)
 
-Git (our version control):
---------------------------
-Setup
-
-Implementation
-
-Next Steps
+Remember, we are all in this together and the Slack channel is there to help. If you are having troubles ask there, if you figured something out that could help others also share it there. 
 
 Our first Javascript+HTML:
---------------------------
-Setup
+======================
+Now then. Let's make a web page with some Javascript using our new IDE Atom!
+
+We recommend you create a folder for Prime work with a folder for prework within. Let's create a new folder in prework for this project. I've called mine "preworkHTML", but you may choose to name yours something like "week1".
+
+Open Atom. Choose File-Open from the main menu and browse to your folder to open. You'll see your folder listed in the left panel in Atom. Right click on this folder and choose "New File" from the popup menu and create an "index.html" file:
 
 ![atom0](images/atom_0.png)
+
+Continue this process to create a "styles" folder and a "scripts" folder. Create a file called "helloWorld.js" in the "scripts" folder. This will be our JavaScript file. 
+
+In the "styles" folder, include a CSS file. From the application process you should be able to create a CSS file. We'll not be reviewing how to create one here. 
+
+In the example you'll see I'm using a CSS file called "beach.css". Take a few moments to create a simple CSS file to start. You can always revisit and iterate this later.
+-
+Now, let's get into our HTML file. Open "index.html" by clicking on it's tab at the top of Atom. Type in ```html``` and you'll see that Atom anticipates that you are trying to create an HTML file 
+
 ![atom1](images/atom_1.png)
+
+Click RETURN or TAB and you'll see that Atom gives you some scaffolding for a basic HTML page.
+
 ![atom2](images/atom_2.png)
+
+Let's give our little page a Title of "Hello World" and add a H1 in the body as well: 
+
 ![atom3](images/atom_3.png)
+
+You may have noticed that Atmo tries to anticipate what you are trying to add. This is because Atom knows it is an HTML file. Add a p tag by typing ```<p``` and click RETURN or TAB. Note that Atom finishes the opening tab as well as provides you with the closing p tag. 
+
+Give this paragraph tag some text of "Check the console for javascript output"
+
 ![atom4](images/atom_4.png)
 ![chrome_0](images/chrome_0.png)
 ![chrome_1](images/chrome_1.png)
 ![chrome_2](images/chrome_2.png)
 
-Next Steps
+
+Git (our version control):
+=======================
+Now that you've got Slack and Atom set up, we're ready to start making a web page with some Javascript! We'll add one more tool to manage our files. 
+
+Open Terminal. This can be found in Applications-Utilities-Terminal:
+![](images/applicationUtilities.png)
+
+![](images/applicationTerminal.png)
+
+............ TBA .........
 
 
 Posting our work to Github:
----------------------------
+===============================
 Setup
 
 Implementation
@@ -111,7 +154,7 @@ Implementation
 Next Steps
 
 Turning in our work through the Assignment App:
------------------------------------------------
+======================
 Setup
 
 Implementation
