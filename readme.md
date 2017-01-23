@@ -176,24 +176,16 @@ Open Terminal. This can be found in Applications-Utilities-Terminal:
 
 ![](images/applicationTerminal.png)
 
-............ TBA .........
+Video : https://vimeo.com/199694535
 
 
 Posting our work to Github:
 ===============================
-Setup
-
-Implementation
-
-Next Steps
+Video : https://vimeo.com/199694621
 
 Turning in our work through the Assignment App:
 ======================
-Setup
-
-Implementation
-
-Next Steps
+Video : https://vimeo.com/199694700
 
 
 
