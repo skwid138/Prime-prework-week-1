@@ -1,163 +1,115 @@
 Prework Week 1
 ==============
-Welcome to Prework at Prime Digital Academy! In week 1 of Prework we'll get you set up with the basics:
+Welcome to Prework at Prime Digital Academy! In week 1 of Prework we'll get you set up with the basics.
+
+Click on each link below for instructions.
 
 - [ ] [Slack (our chat program)](slack.md)
-- [ ] Atom (our IDE - Integrated Development Editor)
-- [ ] Git (our version control)
-- [ ] Adding JavaScript to an HTML page
-- [ ] Using GitHub
-- [ ] Turning in your work via the Prime Academy Assignment App
+- [ ] [Atom (our IDE - Integrated Development Editor)](atom.md)
 
 This will take some time and will require installing some programs on your Mac. So get started early in the week and spread the work throughout.
 
-By the end of this week, you'll be all set up for the next few months. You will have stepped through the process of setting up a simple page with javascript, posted it to the Internet, turned it in through Prime's Assignment App, and have started using internet chat to address technical ideas.
+By the end of this week, you'll be all set up for the next few months.
 
-Let's get started!
+Now, for your first assignment.
 
+## Topics Covered
 
+You will step through the process of
 
-Atom (our IDE):
-=========
+* setting up a simple page with JavaScript
+* posting it to the Internet
+* turning it in through Prime's Assignment App
 
-Let's install Atom and a few useful plugins to help you work more affectively. Within Atom is where you'll be writing your code so it is kinda a big deal.
+## Assignment
 
-Steps:
-------
-- [Download Atom](#download-atom)
-- [Default Functionality / Core Packages](#default-functionality--core-packages)
-- [Community Packages](#community-packages)
-- [Settings](#settings)
-
-### Download Atom
-- Download from here: [https://atom.io/](https://atom.io/)
-- After downloading drag the Atom icon from Downloads to the Applications folder.
-![](images/applications.png)
-- To keep Atom in your doc, right click on the open application item in your doc, select options and keep in doc.
-![](images/keep-in-doc.png)
-
--
-
-### Default Functionality / Core Packages
-Atom is the 'hackable text editor'. This means that the community that uses it, extends it via packages they write to add new functionality. As these packages become popular the "maintainers" (programmers that work on and are responsible for a software project) of atom can decide to make functionality default.
-
-To see what is installed by default or enable it, go to the preferences menu (also called settings). This is located in the Atom menu, select Preferences. A new tab will open called **Settings**. On the left hand side of this screen you should see a series of options: Settings, Keybindings, Packages, Themes, Updates, and Install. Select **Packages**.
-
-![](images/atom-setting-pane.png)
-
-
-### Community Packages
-
-You can install the community packages. Here is a small list of some suggested ones. Note, some packages need you to restart atom before they take effect.
-
-- [linter](https://atom.io/packages/linter)
-- [linter-jshint](https://atom.io/packages/linter-jshint)
-- [minimap](https://atom.io/packages/minimap)
-- [open-in-browser](https://atom.io/packages/open-in-browser)
-
-There are two ways to install community packages in atom. The first way is described below. If you are interested in installing things via the command line, there is a hard mode below that describes atom package manager (apm).
-
-##### Install from Preferences
-In the Preference menu, click **Install** on the left selection. In the search box, type the exact name of the package from the list above. As you see in the picture below many matches come up. Find the correct one and click the blue install button. Again, you might need to restart atom for the package to start working.
-
-![](images/atom-install.png)
-
-I already have installed minimap, so I don't have a blue button.
-
-Some packages require you launch them from the package menu.
-
-![](images/atom-packages-menu.png)
-
-Remember, we are all in this together and the Slack channel is there to help. If you are having troubles ask there, if you figured something out that could help others also share it there.
-
-Our first Javascript+HTML:
-======================
 Now then. Let's make a web page with some Javascript using our new IDE Atom!
 
-We recommend you create a folder for Prime work with a folder for prework within. Let's create a new folder in prework for this project. I've called mine "preworkHTML", but you may choose to name yours something like "week1".
+### Creating folders for our work
+We recommend you
 
-Open Atom. Choose File-Open from the main menu and browse to your folder to open. You'll see your folder listed in the left panel in Atom. Right click on this folder and choose "New File" from the popup menu and create an "index.html" file:
+1. create a *prime* folder for Prime work
+2. create a *prework* folder inside of the *prime* folder
 
+Finally, let's create a new folder inside of the *prework* folder for this project. I've called mine "preworkHTML", but you may choose to name yours something like "week1".
+
+### Opening and setting up our project in Atom
+
+1. Open Atom.
+2. Choose "File-Open" from the main menu and browse to your folder to open. You'll see your folder listed in the left panel in Atom.
+3. Right-click on this folder and choose "New File" from the popup menu and create an *index.html* file.
 ![atom0](images/atom_0.png)
+4. Repeat Step 3--choosing "New Folder" instead of "New File"--to create a *scripts* folder.
+5. Create a file called *helloWorld.js* in the *scripts* folder. This is our (first) JavaScript file.
 
-Continue this process to create a "scripts" folder. Create a file called "helloWorld.js" in the "scripts" folder. This will is our (first) JavaScript file.
+### Creating our web app
 
--
+#### Editing our HTML file
 
-Now, let's get into our HTML file. Open "index.html" by clicking on it's tab at the top of Atom. Type in ```html``` and you'll see that Atom anticipates that you are trying to create an HTML file
+Now, let's get into our HTML file. Open *index.html* by clicking on its tab at the top of Atom.
 
+1. Type in `html` and you'll see that Atom anticipates that you are trying to create an HTML file.
 ![atom1](images/atom_1.png)
-
-Click TAB and you'll see that Atom gives you some scaffolding for a basic HTML page.
-
+2. Press the TAB key and you'll see that Atom gives you some scaffolding for a basic HTML page.
 ![atom2](images/atom_2.png)
-
-Let's give our little page a Title of "Hello World" and add a H1 in the body as well:
-
+3. Let's give our page a `title` of "Hello World" and add a `h1` in the body as well.
 ![atom3](images/atom_3.png)
+4. You may have noticed that Atom tries to anticipate what you are trying to add. This is because Atom knows it is an HTML file. Add a p tag by typing `<p` and click TAB. Note that Atom finishes the opening tab as well as provides you with the closing p tag.
+5. Give this paragraph tag some text content: "Check the console for javascript output".
 
-You may have noticed that Atom tries to anticipate what you are trying to add. This is because Atom knows it is an HTML file. Add a p tag by typing ```<p``` and click TAB. Note that Atom finishes the opening tab as well as provides you with the closing p tag.
+#### Editing our JavaScript file
 
-Give this paragraph tag some text of "Check the console for javascript output"
-
--
-
-Now let's open "helloWorld.js". simply add the following line:
+1. Open *helloWorld.js*.
+2. Add the following line:
 
 ```javascript
 console.log( 'Hello World!' );
 ```
 
-This will display in a part of the browser called the "Console". We'll see this shortly.
+This will display in a part of the browser called the console. We'll see this shortly.
 
--
+#### Connecting our JavaScript and HTML
 
-We'll need to "source" the js file in the HTML. This is what connects the javascript to the HTML. Similar to how you used "link" previously to add CSS to an HTML file.
+We'll need to "source" the .js file in the HTML. This is what connects the JavaScript to the HTML. This is similar to how you used `link` previously to add CSS to an HTML file.
 
-In the "head" section of the HTML, start typing ```src``` and Atom will anticipate you sourcing in a script file.
-
+1. In the `head` section of the HTML, start typing `src` and Atom will anticipate you sourcing in a script file.
 ![atom4](images/atom_4.png)
-
-"Source" in our js file as follows:
+2. "Source" in our js file as follows:
 ![atom4](images/atom_5.png)
+3. Save all your work and let's get ready to see how things are working!
 
-Save all your work and let's get ready to see how things are working!
+#### Checking our work
 
--
-Open the index.html file in Chrome. Rt-click and choose "Inspect" from the popup menu:
-
+1. Open the *index.html* file in Chrome.
+2. Right-click and choose "Inspect" from the popup menu.
 ![chrome_0](images/chrome_0.png)
-
-This can aslo be opened by choosing View-Developer-Developer Tools:
+NOTE: This can aslo be opened by choosing View-Developer-Developer Tools.
 ![chrome_1](images/chrome_1.png)
-
-In the Dev Tools panel, click on the "Console" tab to activate it. You'll see in there your "Hello World!" message.
-
+3. In the Dev Tools panel, click on the "Console" tab to activate it. You'll see in there your "Hello World!" message.
 ![chrome_1](images/chrome_2.png)
 
-Next Steps:
------------
-Create a CSS file, link it in and add some styling. You've now sourced in a javascript file and created a basic page that says hello to the world from you as a developer! Next, we'll use Git to post your work to Github. Then you'll learn how we turn in assignments on the Prime Assignment App.
+#### Add some styling
 
+Create a CSS file, link it in and add some styling.
 
-Git and Github:
-=======================
-Git
-----
-Now that you've built a page on your computer, we'll want it on github so it can be shared. We'll add one more tool to manage our files - Git.
+### Git and Github
 
-Open Terminal. This can be found in Applications-Utilities-Terminal:
+You've now sourced in a javascript file and created a basic page that says hello to the world from you as a developer! Next, we'll use Git to post your work to Github. Finally, you'll learn how we turn in assignments on the Prime Assignment App.
+
+#### Git
+
+Now that you've built a page on your computer, we'll want it on GitHub so it can be shared. We'll add one more tool to manage our files: Git.
+
+1. Open Terminal. This can be found in Applications-Utilities-Terminal.
 ![](images/applicationUtilities.png)
-
+-
 ![](images/applicationTerminal.png)
+2. [Watch this video for instructions](https://vimeo.com/199694535)
 
-Video : https://vimeo.com/199694535
+#### Posting our work to Github
 
+[Video](https://vimeo.com/199694621)
 
-Posting our work to Github:
-===============================
-Video : https://vimeo.com/199694621
+### Turning in our work through the Assignment App
 
-Turning in our work through the Assignment App:
-======================
-Video : https://vimeo.com/199694700
+[Video](https://vimeo.com/199694700)
