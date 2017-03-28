@@ -50,7 +50,7 @@ Step | Instruction | Screen Shot
 ![](images/applicationUtilities_450.png)
 ![](images/applicationTerminal_450.png)
 6. Type `cd ~/prime/prework` in the Terminal application and press the RETURN (or ENTER) key to navigate to your prework folder.
-7. Type `git clone ` (yes, the space is important).
+7. Type `git clone `. **IMPORTANT:** Leave a space after the word "clone".
 8. Press COMMAND and V keys at the same time to paste your Git URL next to the words you just typed.
 9. Press the RETURN (or ENTER) key to execute the typed command. This will create a local copy of your GitHub-hosted repo.
 10. Type `cd prework-week-1-assignment` to navigate into your local Git repo.
