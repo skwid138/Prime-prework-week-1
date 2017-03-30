@@ -57,8 +57,12 @@ Step | Instruction | Screen Shot
 
 ### 3 | Opening our project in Atom
 
+**Option 1: Command Line Instructions**
+1. In the Terminal, type `atom .` to open up your current directory in Atom.
+
+**Option 2: From Atom Instructions**
 1. Open Atom.
-2. Select File-Open from the main menu and browse to the *prework-week-1-assignment* folder to open. You'll see your folder listed in the left panel in Atom.
+2. Select File > Open from the main menu and browse to the *prework-week-1-assignment* folder to open. You'll see your folder listed in the left panel in Atom.
 
 ### 4 | Creating our web app
 
