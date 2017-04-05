@@ -39,6 +39,11 @@ module.exports = function(config) {
     // available reporters: https://npmjs.org/browse/keyword/karma-reporter
     reporters: ['progress', 'junit'],
 
+    junitReporter: {
+      outputDir: "test-output",
+      outputFile: "test-results.xml",
+      useBrowserName: false
+    },
 
     // web server port
     port: 9876,
@@ -59,7 +64,7 @@ module.exports = function(config) {
 
     // start these browsers
     // available browser launchers: https://npmjs.org/browse/keyword/karma-launcher
-    browsers: ['PhantomJS', 'Chrome'],
+    browsers: ['PhantomJS'],
 
 
     // Continuous Integration mode
