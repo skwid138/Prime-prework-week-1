@@ -18,7 +18,7 @@ describe('basemode HTML content', function () {
     var childIndex = getIndexOfType(HTMLTitleElement, fixture.el.childNodes);
     // expect(fixture.el.childNodes[childIndex].innerHTML).to.match(/^[hH]ello [wW]orld/);
     // accept any string with some letters but not an empty one. symbols are fine.
-    expect(fixture.el.childNodes[childIndex].innerHTML).to.match(/^[a-zA-Z0-9\-]+/);
+    expect(fixture.el.childNodes[childIndex].innerHTML).to.match(/^[a-zA-Z0-9!\-]+/);
   });
 
   it('should source in JavaScript', function () {
