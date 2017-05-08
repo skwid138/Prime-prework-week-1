@@ -27,8 +27,20 @@ describe('basemode HTML content', function () {
   });
 
   it('should source in CSS', function () {
-    var childIndex = getIndexOfType(HTMLLinkElement, fixture.el.childNodes);
-    expect(fixture.el.childNodes[childIndex].href).to.contain('.css');
+    // pull out all link element nodes
+    var linkNodes = getIndicesOfType(HTMLLinkElement, fixture.el.childNodes);
+    // we should have at least 1
+    expect(linkNodes.length).to.be.above(0);
+
+    // check each link element node
+    linkNodes.forEach(function(link) {
+      // makes sure we have the proper relation set
+      expect(link.rel).to.equal('stylesheet');
+      // . checks to make sure there is either an extension or a domain. css is what we're looking for
+      expect(link.href).to.contain('.')
+        .and.to.contain('css');
+    });
+
   });
 
   it('should have an H1 heading', function () {
@@ -58,4 +70,14 @@ function getIndexOfType(type, node) {
     }
   }
   return index;
+}
+
+function getIndicesOfType(type, node) {
+  var nodes = [];
+  for (var i = 0; i < node.length; i++) {
+    if (node[i] instanceof type) {
+      nodes.push(node[i]);
+    }
+  }
+  return nodes;
 }
