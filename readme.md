@@ -39,7 +39,7 @@ Step | Instruction | Screen Shot
 
 ### 2 | Getting our assignment onto our computer
 
-[Watch this video on how to "download"](https://youtu.be/JI10ONehZTg) your assignment into the *prework* folder you created. Optionally, you can also read the written instructions below.
+[Watch this video on how to "download"](https://vimeo.com/218468543) your assignment into the *prework* folder you created. The password for the video is '*pr1me*'. Optionally, you can also read the written instructions below.
 
 1. Click on the *Fork* button in the upper right-hand corner of this webpage.
 2. Click to select your GitHub account in the modal window that appears. This will create a copy of this code under your account.
