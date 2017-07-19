@@ -1,2 +1,11 @@
 Atom
 - in an html file you can type 'html + return' to automatically add basic html text to the document.
+
+
+GIT
+- git push -u origin master
+The -u refers to upstream
+
+Terminal
+- once in a directory use 'atom .' to open the project in Atom
+- open [file name] will open the file in the default program

@@ -1,1 +1,22 @@
+body {
+  background: #fff;
+  max-width: 980px;
+  /*margin: 0 auto;*/
+  padding: 0 20px;
+  font-family: 'Amatic SC', cursive;
+  font-size: 2em;
+  line-height: 1em;
+  color: #629bf7;
+}
 
+h1 {
+  font-size: 2em;
+  font-family: 'Amatic SC', cursive;
+  font-weight: 700;
+  color: #42f4b0;
+
+}
+
+p {
+  color: black;
+}
