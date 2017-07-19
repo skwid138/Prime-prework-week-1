@@ -1,0 +1,2 @@
+Atom
+- in an html file you can type 'html + return' to automatically add basic html text to the document.
